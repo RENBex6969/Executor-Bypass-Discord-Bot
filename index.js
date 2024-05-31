@@ -4,8 +4,8 @@ const { Client } = require('discord.js');
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 const axios = require('axios')
+const keep_alive = require('./keep_alive.js')
 
-const token = "MTI0NTE1Njc4Nzc3OTQwNzg4Mw.GdMHdF.AImkIRdNxXsJgma1VSH3heZDCls3be_z6Uv17Y"; //the bots token
 const clientId = "1245156787779407883"; //the bots client id
 const botstatus = "DND" //bots custum status
 const madeby = "REN❤️"; //made by footer for example Made By {name} 
@@ -456,4 +456,4 @@ async function fluxus(interaction) {
     }
 }
 
-client.login(token);
+client.login(process.env.token);
