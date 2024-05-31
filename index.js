@@ -5,11 +5,11 @@ const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 const axios = require('axios')
 
-const token = ""; //the bots token
-const clientId = ""; //the bots client id
-const botstatus = "" //bots custum status
-const madeby = ""; //made by footer for example Made By {name} 
-const apikey = ""; //api key get from https://discord.gg/SbhE6yTQ2g for free
+const token = "MTI0NTE1Njc4Nzc3OTQwNzg4Mw.GdMHdF.AImkIRdNxXsJgma1VSH3heZDCls3be_z6Uv17Y"; //the bots token
+const clientId = "1245156787779407883"; //the bots client id
+const botstatus = "DND" //bots custum status
+const madeby = "REN❤️"; //made by footer for example Made By {name} 
+const apikey = "Bypassi-58526896-2fef-4597-b0e4-a22801cbec3a"; //api key get from https://discord.gg/SbhE6yTQ2g for free
 const endpoint = "http://45.90.13.151:6041" //bypassi api endpoint ONLY CHANGE WHEN ANNOUNCEMENT
 
 const client = new Client({ intents: 3276799 });
